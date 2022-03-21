@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<head>
+  <meta charset="UTF-8">
+  <title>Super Trunfo</title>
+  <link rel="stylesheet" href="style.css">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Super Trunfo</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
 <body>
     <div class="container">
+       
         <h1 class="page-title">Super Trunfo</h1>
-        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        <button id="btnSortear">Sortear carta</button>
         <form id="form">
             <h2>Escolha o seu atributo</h2>
             <div class="wrapper">
@@ -27,16 +24,17 @@
                 <div>
                     <div id="carta-maquina" class="carta"><img
                             src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png"
-                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                            style=" width: inherit; height: inherit; position: absolute;">
+                    </div>
                 </div>
             </div>
-            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <button class="button-jogar" type="button" id="btnJogar" disabled="false">Jogar</button>
             <div id="resultado"></div>
         </form>
     </div>
-    <footer>
-       
-    </footer>
+</body>
+    <script type="text/javascript" src="superTrunfo.js"></script>
 </body>
 
 </html>
+

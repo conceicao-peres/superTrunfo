@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     min-height: 854px;
-    background-image: url("https://www.monolitonimbus.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/10/caverna_dragao.jpg.webp");
+    background-image: url("https://i0.wp.com/judao.com.br/wp-content/uploads/2018/09/caverna_dest.jpg?fit=1856%2C1800&ssl=1");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
@@ -11,7 +11,7 @@ body {
 
 .container {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .page-title {
@@ -25,11 +25,6 @@ button, .button-jogar {
     border-radius: 5px;
     border: none;
     font-size: 1rem;
-}
-
-h1{
-    color: white;
-    font-size: 50px; 
 }
 
 h2 {
@@ -51,6 +46,7 @@ h2 {
     background-position-x: 5px;
     background-position-y: 10px;
     border-radius: 33px;
+    font-size: 20px;
 }
 
 #carta-jogador h3 {
