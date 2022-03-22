@@ -1,4 +1,4 @@
 # superTrunfo
 
-<a href src="https://conceicao-peres.github.io/superTrunfo/"> DEMO </a>
+<a href="https://conceicao-peres.github.io/superTrunfo/" target="_blank"> DEMO </a>
 <p>Imersão Dev</p>
