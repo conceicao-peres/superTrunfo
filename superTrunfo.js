@@ -107,8 +107,7 @@ var botaoJogar = document.querySelector("#btnJogar")
     }
   }
   
-  function jogar() {
-    console.log("chamou");
+  function jogar() { 
     var atributoSelecionado = obtemAtributoSelecionado();
     var divResultado = document.getElementById("resultado");
   

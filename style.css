@@ -1,8 +1,7 @@
 body {
     font-family: 'Roboto Mono', monospace;
     min-height: 854px;
-    background-image: url("https://i0.wp.com/judao.com.br/wp-content/uploads/2018/09/caverna_dest.jpg?fit=1856%2C1800&ssl=1");
-    background-color: #000000;
+    background-color: lightgray;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
